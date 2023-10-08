@@ -25,6 +25,7 @@ public class Activity
         Console.WriteLine("Get ready...");
         ShowSpinner(5);
     } 
+
     public void DisplayEndingMessage()
     {
         Console.WriteLine();
@@ -34,6 +35,7 @@ public class Activity
         Console.WriteLine($"You have completed another {_duration} seconds of the {_name}");
         ShowSpinner(5);
     }
+
      public void ShowSpinner(int seconds)
     {
         List<string> spinner = new List<string>();
@@ -64,6 +66,7 @@ public class Activity
             }
         } 
     }
+    
     public void ShowCountDown(int seconds)
     {
         for (int i = seconds; i > 0; --i)
