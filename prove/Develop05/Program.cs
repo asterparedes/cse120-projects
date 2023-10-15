@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop05 World!");
+        GoalManager goal = new GoalManager();
+        goal.Start();
     }
+    // For Saving and Loading file, I use the JSON format. 
 }
