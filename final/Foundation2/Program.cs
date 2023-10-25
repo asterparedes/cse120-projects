@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Address customerAddress = new Address("Lumina Homes", "Bacolod", "Negros Occidental", "Philippines");
-        Address customerAddress = new Address("4228 Lennox Blvd", "Inglewood", "CA", "USA");
+        Address customerAddress = new Address("Lumina Homes", "Bacolod", "Negros Occidental", "Philippines");
+        // Address customerAddress = new Address("4228 Lennox Blvd", "Inglewood", "CA", "USA");
         Customer customerName = new Customer("Magdalena Villanueva", customerAddress);
         Product product1 = new Product("Lipstick", 128, 20, 3);
         Product product2 = new Product("Eyeliner", 145, 15, 2);
